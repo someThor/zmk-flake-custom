@@ -13,6 +13,5 @@ manifest:
     - name: flake-zmk-module
       remote: flake-zmk-module
       revision: main
-      import: west.yml
   self:
     path: config
