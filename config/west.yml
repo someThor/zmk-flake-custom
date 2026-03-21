@@ -9,7 +9,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: ed0fa157b1a53e274753f8c6e9889e0c57df3340
       import: app/west.yml
     - name: flake-zmk-module
       remote: anywhy-io
