@@ -10,8 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: anywhy_flake
+    - name: flake-zmk-module
       remote: anywhy-io
       revision: main
+      import: west.yml
   self:
     path: config
