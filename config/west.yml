@@ -1,13 +1,18 @@
 manifest:
-  #defaults:
-  #  revision: v0.3
+  defaults:
+    revision: v0.3
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: anywhy-io
+      url-base: https://github.com/anywhy-io
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: flake-zmk-module
+      remote: anywhy-io
+      revision: main
   self:
     path: config
