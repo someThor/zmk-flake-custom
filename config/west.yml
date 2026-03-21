@@ -13,6 +13,6 @@ manifest:
     - name: flake-zmk-module
       remote: anywhy-io
       revision: main
-      import: west.yml
+      import: config/west.yml
   self:
     path: config
