@@ -78,6 +78,15 @@
             key-positions = <22 23>;
         };
 
+        SoftOffLeft {
+            bindings = <&soft_off>;
+            key-positions = <0 5>;
+        };
+        SoftOffRight {
+            bindings = <&soft_off>;
+            key-positions = <6 11>;
+        };
+
         //bt_sel_3 {
         //    bindings = <&bt3>;
         //    key-positions = <42 30>;
