@@ -78,13 +78,9 @@
             key-positions = <22 23>;
         };
 
-        SoftOffLeft {
+        SoftOff {
             bindings = <&soft_off>;
             key-positions = <0 5>;
-        };
-        SoftOffRight {
-            bindings = <&soft_off>;
-            key-positions = <6 11>;
         };
 
         //bt_sel_3 {
