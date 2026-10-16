@@ -1,10 +1,10 @@
 manifest:
-  defaults:
-    revision: v0.3
+  #defaults:
+  #  revision: v0.3
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: flake-firmware
+    - name: lever-tech
       url-base: https://github.com/lever-tech
   projects:
     - name: zmk
