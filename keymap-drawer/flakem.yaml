@@ -1,4 +1,4 @@
-layout: { zmk_keyboard: anywhy_flake }
+layout: { zmk_keyboard: lever_flake }
 layers:
   base:
     - ESC

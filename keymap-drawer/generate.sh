@@ -3,7 +3,7 @@
 KBD_NAME="flakem"
 
 # uv tool install keymap-drawer
-keymap -c my_config.yaml draw -d anywhy_flake.dtsi ${KBD_NAME}.yaml > ${KBD_NAME}.svg
+keymap -c my_config.yaml draw -d lever_flake.dtsi ${KBD_NAME}.yaml > ${KBD_NAME}.svg
 
 # sudo apt install imagemagick
 #convert -background transparent ${KBD_NAME}.svg ${KBD_NAME}.png
