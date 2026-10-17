@@ -44,6 +44,8 @@ draw_config:
 
     .keypos-42 .key.held { fill: #45567a; }
     .keypos-42.held .key.tap.glyph { fill: #8aadf4; }
+
+    .key.hold { opacity: 0.5; }
   footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
   shrink_wide_legends: 7
   style_layer_activators: true

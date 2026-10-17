@@ -9,7 +9,7 @@ keymap -c my_config.yaml draw -d lever_flake.dtsi ${KBD_NAME}.yaml > ${KBD_NAME}
 #convert -background transparent ${KBD_NAME}.svg ${KBD_NAME}.png
 
 # Imagemagick7 (require inkscape for glyphs)
-# nix-shell -p imagemagick inkscape-with-extensions
+# env LD_LIBRARY_PATH="" nix-shell -p imagemagick inkscape-with-extensions
 magick -background transparent ${KBD_NAME}.svg ${KBD_NAME}.png
 
 # sudo apt install inkscape

@@ -26,16 +26,16 @@ layers:
     - P
     - Å
     - ESC
-    - A
-    - S
-    - D
-    - F
+    - {t: A, h: LGUI}
+    - {t: S, h: LALT}
+    - {t: D, h: LCTRL}
+    - {t: F, h: LSHIFT}
     - G
     - H
-    - J
-    - K
-    - L
-    - Ø
+    - {t: J, h: RSHIFT}
+    - {t: K, h: RCTRL}
+    - {t: L, h: RALT}
+    - {t: Ø, h: RGUI}
     - Æ
     - $$mdi:apple-keyboard-shift$$
     - Z
